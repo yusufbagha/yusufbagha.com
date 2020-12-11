@@ -70,7 +70,7 @@ export const headerResumeButton = {
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 export const topBanner = {
-  heading: 'Actively Interviewing #OpenToWork',
+  heading: 'Zohaib is stupid',
   url: 'https://www.linkedin.com/posts/yusufbagha_opentowork-covid19layoffs-softwaredeveloper-activity-6721957203298816000-Z_sx'
 }
 
@@ -156,7 +156,7 @@ export const workHistory = [
     ]
   },
   {
-    company: 'SpaceTraces',
+    company: 'SpaceTrades',
     position: 'Cofounder / Frontend Software Developer',
     startDate: 'Sept 2015',
     endDate: 'May 2015',

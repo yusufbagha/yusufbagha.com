@@ -19,7 +19,7 @@ const browserHistory = createBrowserHistory();
 
 export default function App() {
   return (
-    <Router history={browserHistory}>
+    <Router history={browserHistory} basename={process.env.PUBLIC_URL}>
       <Switch>
         <ScrollToTop>
           <Route exact path="/" component={Home} />

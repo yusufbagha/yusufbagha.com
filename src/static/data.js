@@ -1,5 +1,9 @@
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
   static data for yusufbagha.com
+    - If you're interested in using this for your own website, 
+      you can start by editing the variables in this page
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 import Resume from './YusufBagha.Resume.pdf'

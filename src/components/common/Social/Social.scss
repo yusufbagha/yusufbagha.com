@@ -1,0 +1,24 @@
+.social-container {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  align-items: center;
+  position: fixed;
+  bottom: 30%;
+
+  .icon {
+    font-size: 2rem;
+    color: #555;
+    margin: 12px 0;
+
+    &:hover {
+      color: #ffb644;
+      transition: 0.05s;
+    }
+  }
+  .line {
+    height: 100px;
+    border-right: 2px solid #444;
+    width: 1px;
+  }
+}

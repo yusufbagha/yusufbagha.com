@@ -1,0 +1,43 @@
+.home-container {
+  h1, h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #333;
+  }
+  h2 {
+    margin-top: 25px;
+  }
+  p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #666;
+    max-width: 80%;
+    margin-top: 35px;
+    line-height: 1.5;
+  }
+  > div {
+    margin-top: 50px;
+    a {
+      color: #fff;
+      padding: 18px;
+      border-radius: 4px;
+      font-size: 1.2rem;
+      font-weight: 500;
+      background: #444;
+      border: none;
+      &:last-child {
+        margin-left: 10px;
+        background: #ffc263;
+        &:hover {
+          background: #ffb644;
+          transition: 0.1s;
+        }
+      }
+      &:hover {
+        cursor: pointer;
+        background: #333;
+        transition: 0.1s;
+      }
+    }
+  }
+}

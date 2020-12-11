@@ -1,0 +1,24 @@
+.consulting-container {
+
+  .clients-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    a {
+      font-size: 2rem;
+      font-weight: 400;
+      color: #333;
+      margin: 20px 0;
+      padding: 5px 5px 5px 0;
+      width: fit-content;
+      display: list-item;
+      margin-left: 60px;
+      text-decoration: underline;
+      &:hover {
+        color: #ffb644;
+        transition: 0.1s;
+      }
+    }
+  }
+}

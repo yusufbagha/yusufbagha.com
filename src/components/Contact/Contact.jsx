@@ -1,39 +1,37 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import View from '../common/View/View'
-import './Home.scss';
-
-import {homeHeading1, homeHeading2, homeButton1, homeButton2, homeIntro} from '../../static/constants'
+import Article from '../common/Article/Article'
+import {contacts, contactHeadings, contactParagraphs} from '../../static/data'
+import './Contact.scss';
 
 
 export default class Contact extends Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     name: '',
-  //     greeting: ''
-  //   };
-  //   this.handleChange = this.handleChange.bind(this);
-  //   this.handleSubmit = this.handleSubmit.bind(this);
-  // }
+  constructor(props) {
+    super(props)
+    this.contactMethods = this.contactMethods.bind(this)
+  }
 
-  // handleChange(event) {
-  //   this.setState({ name: event.target.value });
-  // }
-
-  // handleSubmit(event) {
-  //   event.preventDefault();
-  //   fetch(`/api/greeting?name=${encodeURIComponent(this.state.name)}`)
-  //     .then(response => response.json())
-  //     .then(state => this.setState(state));
-  // }
+  contactMethods() {
+    return contacts.map((contact)  => (
+      <div>
+        <a href={contact.url} target="_blank">
+          <FontAwesomeIcon icon={contact.icon} />
+          <p>{contact.text}</p>
+        </a>
+      </div>
+    ))
+  }
 
   render() {
     return (
-      <View history={this.props.history} view="home">
+      <View history={this.props.history} view="contact">
         <div className="contact-container">
-          
+          <Article headings={contactHeadings} paragraphs={contactParagraphs} />
+          <div className="contact-methods">
+            {this.contactMethods()}
+          </div>
         </div>
       </View>
     );

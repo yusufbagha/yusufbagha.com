@@ -3,11 +3,10 @@ import { Link } from 'react-router-dom'
 import TextLoop from "react-text-loop";
 
 import View from '../common/View/View'
-import './About.scss';
-
+import Article from '../common/Article/Article'
+import { aboutParagraphs, aboutHeading, loopText, contactButton, resumeButton } from '../../static/data'
 import Image from '../../static/yusuf.png'
-
-import {loopText, contactButton, resumeButton} from '../../static/constants'
+import './About.scss';
 
 
 export default class About extends Component {
@@ -26,14 +25,11 @@ export default class About extends Component {
     return (
       <View history={this.props.history} view="about">
         <div className="about-container">
-          <h1>
-            <TextLoop>{this.loopText()}</TextLoop> I'm Yusuf</h1>
+          <h1 className="heading"><TextLoop>{this.loopText()}</TextLoop> {aboutHeading}</h1>
           <div>
             <div className="left">
-              <p>I'm a full stack Python &amp; JavaScript engineer from New York. I started programming in 2013 and since then I've founded my own company. Worked as an engineering manager at an early stage startup, and most recently as a full stack engineer at <a href="http://pymetrics.ai" target="_blank">pymetrics</a>. You can learn about my full work history by clicking <Link to="/experience">here</Link>.</p>
-              {/* <p>I spend my free time hacking together projects and dreaming big. That's my definition of having fun.</p> */}
-              {/* <p>Throughout my career I've working in stressful situations, whether that be pressure from investors or a contractual client deadline.</p> */}
-              <div>
+              <Article paragraphs={aboutParagraphs} />
+              <div className="twin-buttons">
                 <Link to={contactButton.url} target={contactButton.target}>{contactButton.text}</Link>
                 <a href={resumeButton.url} target={resumeButton.target}>{resumeButton.text}</a>
               </div>

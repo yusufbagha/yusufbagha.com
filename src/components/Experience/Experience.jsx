@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
 
 import View from '../common/View/View'
 import './Experience.scss';
 
-import {workHistory} from '../../static/constants'
+import { workHistory } from '../../static/data'
 
 
 export default class Experience extends Component {
@@ -16,22 +15,19 @@ export default class Experience extends Component {
 
   workDescription(descriptions) {
     return descriptions.map((description)  => (
-      <div>{description}</div>
+      <li>{description}</li>
     ))
   }
 
   workHistory() {
     return workHistory.map((experience) => (
-      <div>
-        <div>
-          <div className="left">
-            <h2>{experience.company}, {experience.position}</h2>
-          </div>
-          <div className="right">
-            <h3>{experience.startDate} - {experience.endDate}</h3>
-          </div>
+      <div className="job-container">
+        <div className="job-heading">
+          <h2>{experience.company}, {experience.position}, {experience.startDate} - {experience.endDate}</h2>
         </div>
-        {this.workDescription(experience.descriptions)}
+        <div className="job-description">
+          {this.workDescription(experience.descriptions)}
+        </div>
       </div>
     ));
   }
@@ -39,8 +35,8 @@ export default class Experience extends Component {
   render() {
     return (
       <View history={this.props.history} view="experience">
-        <div className="experience">
-          <h1>Work Experience</h1>
+        <div className="experience-container">
+          <h1 className="heading">Work Experience</h1>
           {this.workHistory()}
         </div>
       </View>

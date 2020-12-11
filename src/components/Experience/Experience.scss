@@ -1,3 +1,41 @@
 .experience-container {
-  
+  h1 {
+    margin-bottom: 60px;
+    margin-left: 10px;
+  }
+  .job-container {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #555;
+    max-width: 1050px;
+    &:last-child {
+      border-bottom: none !important;
+    }
+    &:nth-child(6) {
+      > div {
+        margin-bottom: 0 !important;
+      }
+    }
+
+    .job-heading {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 10px;
+      
+      h2 {
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: #333;
+        margin-left: 20px;
+        line-height: 1.5;
+      }
+    }
+    .job-description {
+      li {
+        font-size: 1.1rem;
+        line-height: 1.5;
+        padding: 6px 0 6px 45px;  
+      }
+    }
+  }
 }

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-import './Header.scss';
 
-import { navLinks, topBanner, initials, enableHeaderResume, headerResumeButton } from '../../../static/constants'
+import { navLinks, topBanner, initials, enableHeaderResume, headerResumeButton } from '../../../static/data'
 import Banner from '../Banner/Banner'
+import './Header.scss';
 
 
 export default class Header extends Component {

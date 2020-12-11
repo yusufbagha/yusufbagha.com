@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import './Footer.scss';
 
-import { footerButton } from '../../../static/constants'
+import { footerButton } from '../../../static/data'
 
 export default class Footer extends Component {
   render() {

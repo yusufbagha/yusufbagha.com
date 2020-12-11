@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './Social.scss';
 
-import {linkedinUrl, githubUrl} from '../../../static/constants'
+import {linkedinUrl, githubUrl} from '../../../static/data'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
+import './Social.scss';
 
 
 export default class Social extends Component {

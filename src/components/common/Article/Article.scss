@@ -1,0 +1,23 @@
+.article-container {
+  > h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  > p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #555;
+    margin-top: 15px;
+    line-height: 1.5;
+    a {
+      color: #4f6cff;
+      text-decoration: underline;
+      &:hover {
+        color: #1b32a9;
+        transition: 0.1s;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.contact-container {
+  .contact-methods {
+    margin-top: 25px;
+
+    > div {
+      margin: 25px 0;
+      
+      a {
+        display: flex;
+        width: fit-content;
+
+        svg {
+          font-size: 1.6rem;
+          padding: 18px 0;
+          border-radius: 4px;
+          background: #333;
+          color: #fff;
+          width: 60px;
+        }
+        p {
+          font-size: 1.6rem;
+          margin: 16px 0 0 15px;
+          font-weight: 500;
+          text-decoration: underline;
+        }
+        &:hover {
+          p {
+            color: #ffb644;
+            transition: 0.1s;
+          }
+        }
+      }
+    }
+  }
+}

@@ -10,3 +10,8 @@ npm start
 
 The React application will run on port 3000 
 
+### Using this project
+
+You can easily make changes in src/static/data.js if you want to use this project for your own personal website.
+Please be sure to credit me, https://github.com/yusufbagha/yusufbagha
+

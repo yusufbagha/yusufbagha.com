@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6531c1ac435f7671f673c296c19a13fa",
+    "revision": "f8ae7b014ce7957e13b12febb876895d",
     "url": "/yusufbagha.com/index.html"
   },
   {
-    "revision": "0ea70b683398434dea13",
+    "revision": "5ba5a6e1cff32e0f7624",
     "url": "/yusufbagha.com/static/css/main.7ef9c920.chunk.css"
   },
   {
-    "revision": "f960388e8ab6828ba621",
-    "url": "/yusufbagha.com/static/js/2.eb74de1e.chunk.js"
+    "revision": "dcc515cb0a3f4be96a63",
+    "url": "/yusufbagha.com/static/js/2.1b5bd9ed.chunk.js"
   },
   {
     "revision": "cae1b573efd37b7d89c6086b35f3367f",
-    "url": "/yusufbagha.com/static/js/2.eb74de1e.chunk.js.LICENSE.txt"
+    "url": "/yusufbagha.com/static/js/2.1b5bd9ed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0ea70b683398434dea13",
-    "url": "/yusufbagha.com/static/js/main.b84953aa.chunk.js"
+    "revision": "5ba5a6e1cff32e0f7624",
+    "url": "/yusufbagha.com/static/js/main.1f23c340.chunk.js"
   },
   {
     "revision": "e0db10b7745287fac3fd",

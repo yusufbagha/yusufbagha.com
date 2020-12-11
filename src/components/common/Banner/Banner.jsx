@@ -4,10 +4,9 @@ import './Banner.scss';
 export default class Banner extends Component {
   render() {
     return (
-      <div class="banner">
+      <div className="banner">
         <a href={this.props.url} 
-           target="_blank"
-           rel="noopener noreferrer" >
+           target="_blank" rel="noopener noreferrer">
           {this.props.heading}
         </a>
       </div>

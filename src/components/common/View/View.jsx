@@ -12,7 +12,7 @@ export default class View extends Component {
         <Header history={this.props.history} view={this.props.view} />
         <div className="page-container">
           <Social />
-          <div class="content-container">
+          <div className="content-container">
             {this.props.children}
           </div>
         </div>

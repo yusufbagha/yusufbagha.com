@@ -15,13 +15,13 @@ export default class Experience extends Component {
 
   workDescription(descriptions) {
     return descriptions.map((description)  => (
-      <li>{description}</li>
+      <li key={description}>{description}</li>
     ))
   }
 
   workHistory() {
     return workHistory.map((experience) => (
-      <div className="job-container">
+      <div className="job-container" key={experience.startDate}>
         <div className="job-heading">
           <h2>{experience.company}, {experience.position}, {experience.startDate} - {experience.endDate}</h2>
         </div>

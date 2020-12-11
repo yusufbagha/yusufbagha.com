@@ -13,7 +13,7 @@ export default class Projects extends Component {
       <View history={this.props.history} view="projects">
         <div className="projects-container">
           <Article headings={projectsHeadings} paragraphs={projectsParagraphs} />
-          <iframe src={projectIframeUrl}></iframe>
+          <iframe title="tapsalot" src={projectIframeUrl}></iframe>
         </div>
       </View>
     );

@@ -10,13 +10,13 @@ export default class Social extends Component {
   render() {
     return (
       <div className="social-container">
-        <a href={linkedinUrl} target="_blank" className="icon">
+        <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="icon">
           <FontAwesomeIcon icon={faLinkedinIn} />
         </a>
         <div className="line">
 
         </div>
-        <a href={githubUrl} target="_blank" className="icon">
+        <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="icon">
           <FontAwesomeIcon icon={faGithub} />
         </a>
       </div>

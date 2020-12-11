@@ -14,7 +14,7 @@ export default class Article extends Component {
   displayHeading() {
     if (this.props.headings) {
       return this.props.headings.map((heading)  => (
-        <h1>{parse(heading)}</h1>
+        <h1 key={heading}>{parse(heading)}</h1>
       ))
     }
   }
@@ -22,7 +22,7 @@ export default class Article extends Component {
   displayText() {
     if (this.props.paragraphs) {
       return this.props.paragraphs.map((paragraph)  => (
-        <p>{parse(paragraph)}</p>
+        <p key={paragraph}>{parse(paragraph)}</p>
       ))
     }
   }

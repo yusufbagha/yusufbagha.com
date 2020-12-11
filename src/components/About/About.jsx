@@ -17,7 +17,7 @@ export default class About extends Component {
 
   loopText() {
     return loopText.map((text) => (
-      <span>{text}!</span>
+      <span key={text}>{text}!</span>
     ))
   }
 
@@ -35,7 +35,7 @@ export default class About extends Component {
               </div>
             </div>
             <div className="right">
-              <img src={Image} />
+              <img src={Image} alt="handsome developer" />
             </div>
           </div>
         </div>

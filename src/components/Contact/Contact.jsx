@@ -15,8 +15,8 @@ export default class Contact extends Component {
 
   contactMethods() {
     return contacts.map((contact)  => (
-      <div>
-        <a href={contact.url} target="_blank">
+      <div key={contact.text}>
+        <a href={contact.url} target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={contact.icon} />
           <p>{contact.text}</p>
         </a>

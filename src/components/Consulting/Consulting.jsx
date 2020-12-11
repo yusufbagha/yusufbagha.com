@@ -14,7 +14,7 @@ export default class Consulting extends Component {
 
   displayClients() {
     return clients.map((client) => (
-      <a href={client.url} target="_blank">
+      <a href={client.url} target="_blank" rel="noopener noreferrer" key={client.company}>
         {client.company} {client.project && `- ${client.project}`} - {client.year}
       </a>
     ));

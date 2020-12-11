@@ -17,7 +17,7 @@ export default class Header extends Component {
       <Link 
         to={`/${link.url}`}
         key={link.url}
-        className={this.props.view == link.url && 'underline'}>{link.name}</Link>
+        className={String(this.props.view === link.url && 'underline')}>{link.name}</Link>
     ));
   }
 

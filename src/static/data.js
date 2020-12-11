@@ -264,7 +264,7 @@ export const contacts = [
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 export const footerButton = {
-  text: '2020 Bagha LLC - Built with React + Deployed Serverless',
+  text: '2020 Bagha LLC - Built with React',
   target: '_blank',
   url: 'https://github.com/yusufbagha/yusufbagha.com'
 }

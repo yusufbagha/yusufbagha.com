@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/yusufbagha.com/static/css/main.7befdc6c.chunk.css",
-    "main.js": "/yusufbagha.com/static/js/main.94afe50d.chunk.js",
-    "main.js.map": "/yusufbagha.com/static/js/main.94afe50d.chunk.js.map",
+    "main.js": "/yusufbagha.com/static/js/main.4b2350ae.chunk.js",
+    "main.js.map": "/yusufbagha.com/static/js/main.4b2350ae.chunk.js.map",
     "runtime-main.js": "/yusufbagha.com/static/js/runtime-main.3485d79b.js",
     "runtime-main.js.map": "/yusufbagha.com/static/js/runtime-main.3485d79b.js.map",
     "static/js/2.78885ac2.chunk.js": "/yusufbagha.com/static/js/2.78885ac2.chunk.js",
     "static/js/2.78885ac2.chunk.js.map": "/yusufbagha.com/static/js/2.78885ac2.chunk.js.map",
     "index.html": "/yusufbagha.com/index.html",
-    "precache-manifest.80e182c05136bcf85e8e353519aa8a60.js": "/yusufbagha.com/precache-manifest.80e182c05136bcf85e8e353519aa8a60.js",
+    "precache-manifest.6ce86f520da6b010edf929fcc783b510.js": "/yusufbagha.com/precache-manifest.6ce86f520da6b010edf929fcc783b510.js",
     "service-worker.js": "/yusufbagha.com/service-worker.js",
     "static/css/main.7befdc6c.chunk.css.map": "/yusufbagha.com/static/css/main.7befdc6c.chunk.css.map",
     "static/js/2.78885ac2.chunk.js.LICENSE.txt": "/yusufbagha.com/static/js/2.78885ac2.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.3485d79b.js",
     "static/js/2.78885ac2.chunk.js",
     "static/css/main.7befdc6c.chunk.css",
-    "static/js/main.94afe50d.chunk.js"
+    "static/js/main.4b2350ae.chunk.js"
   ]
 }

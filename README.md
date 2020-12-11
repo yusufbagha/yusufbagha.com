@@ -1,13 +1,6 @@
-# React application with Express server
+# YusufBagha.com React application 
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). Then an Express server was added in the `server` directory. The server is proxied via the `proxy` key in `package.json`.
-
-
-You can start the server on its own with the command:
-
-```bash
-npm run server
-```
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app)
 
 Run the React application on its own with the command:
 
@@ -15,11 +8,5 @@ Run the React application on its own with the command:
 npm start
 ```
 
-Run both applications together with the command:
-
-```bash
-npm run dev
-```
-
-The React application will run on port 3000 and the server port 3001.
+The React application will run on port 3000 
 

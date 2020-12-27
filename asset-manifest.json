@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/yusufbagha.com/static/css/main.7ef9c920.chunk.css",
-    "main.js": "/yusufbagha.com/static/js/main.e0198b6a.chunk.js",
-    "main.js.map": "/yusufbagha.com/static/js/main.e0198b6a.chunk.js.map",
-    "runtime-main.js": "/yusufbagha.com/static/js/runtime-main.5bb46e4e.js",
-    "runtime-main.js.map": "/yusufbagha.com/static/js/runtime-main.5bb46e4e.js.map",
-    "static/js/2.1b5bd9ed.chunk.js": "/yusufbagha.com/static/js/2.1b5bd9ed.chunk.js",
-    "static/js/2.1b5bd9ed.chunk.js.map": "/yusufbagha.com/static/js/2.1b5bd9ed.chunk.js.map",
-    "index.html": "/yusufbagha.com/index.html",
-    "precache-manifest.6329cd1785849137c2215a04d870b5f3.js": "/yusufbagha.com/precache-manifest.6329cd1785849137c2215a04d870b5f3.js",
-    "service-worker.js": "/yusufbagha.com/service-worker.js",
-    "static/css/main.7ef9c920.chunk.css.map": "/yusufbagha.com/static/css/main.7ef9c920.chunk.css.map",
-    "static/js/2.1b5bd9ed.chunk.js.LICENSE.txt": "/yusufbagha.com/static/js/2.1b5bd9ed.chunk.js.LICENSE.txt",
-    "static/media/YusufBagha.Resume.pdf": "/yusufbagha.com/static/media/YusufBagha.Resume.1038881e.pdf",
-    "static/media/yusuf.png": "/yusufbagha.com/static/media/yusuf.1eecefea.png"
+    "main.css": "/static/css/main.073b89ea.chunk.css",
+    "main.js": "/static/js/main.bbedd264.chunk.js",
+    "main.js.map": "/static/js/main.bbedd264.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5ad136f7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5ad136f7.js.map",
+    "static/js/2.01437d70.chunk.js": "/static/js/2.01437d70.chunk.js",
+    "static/js/2.01437d70.chunk.js.map": "/static/js/2.01437d70.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2fce6bf5cc39c9c02a5a5947d0013679.js": "/precache-manifest.2fce6bf5cc39c9c02a5a5947d0013679.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.073b89ea.chunk.css.map": "/static/css/main.073b89ea.chunk.css.map",
+    "static/js/2.01437d70.chunk.js.LICENSE.txt": "/static/js/2.01437d70.chunk.js.LICENSE.txt",
+    "static/media/YusufBagha.Resume.pdf": "/static/media/YusufBagha.Resume.1038881e.pdf",
+    "static/media/yusuf.png": "/static/media/yusuf.1eecefea.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5bb46e4e.js",
-    "static/js/2.1b5bd9ed.chunk.js",
-    "static/css/main.7ef9c920.chunk.css",
-    "static/js/main.e0198b6a.chunk.js"
+    "static/js/runtime-main.5ad136f7.js",
+    "static/js/2.01437d70.chunk.js",
+    "static/css/main.073b89ea.chunk.css",
+    "static/js/main.bbedd264.chunk.js"
   ]
 }

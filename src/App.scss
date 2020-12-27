@@ -123,11 +123,19 @@ input[type="checkbox"] {
       background: #333;
       transition: 0.1s;
     }
+    @media (max-width: 650px) {
+      font-size: 1rem;
+      padding: 16px;
+    }
+    @media (max-width: 400px) {
+      font-size: 0.9rem;
+      padding: 14px;
+    }
   }
 }
-.heading {
-  font-size: 3rem;
-  font-weight: 500;
-  color: #333;
-  margin-bottom: 20px;
-}
+// .heading {
+//   font-size: 3rem;
+//   font-weight: 500;
+//   color: #333;
+//   margin-bottom: 20px;
+// }

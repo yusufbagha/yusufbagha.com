@@ -1,16 +1,16 @@
 .article-container {
-  > h1 {
-    font-size: 3rem;
-    font-weight: 500;
-    color: #333;
-    margin-bottom: 20px;
-  }
   > p {
     font-size: 1.3rem;
     font-weight: 400;
     color: #555;
     margin-top: 15px;
     line-height: 1.5;
+    @media (max-width: 650px) {
+      font-size: 1rem;
+    }
+    @media (max-width: 375px) {
+      font-size: 0.9rem;
+    }
     a {
       color: #4f6cff;
       text-decoration: underline;
@@ -19,5 +19,29 @@
         transition: 0.1s;
       }
     }
+  }
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 20px;
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+  }
+  @media (max-width: 650px) {
+    font-size: 1.6rem;
+    line-height: 1.5 !important;
+  }
+  @media (max-width: 500px) {
+    font-size: 1.4rem;
+  }
+  @media (max-width: 350px) {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+  @media (max-width: 330px) {
+    font-size: 1.2rem;
   }
 }

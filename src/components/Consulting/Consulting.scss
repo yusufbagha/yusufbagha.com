@@ -4,6 +4,9 @@
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    @media (max-width: 650px) {
+      margin-top: 0;
+    }
 
     a {
       font-size: 2rem;
@@ -15,6 +18,15 @@
       display: list-item;
       margin-left: 60px;
       text-decoration: underline;
+      @media (max-width: 650px) {
+        font-size: 1.4rem;
+        line-height: 1.5;
+        margin: 15px 0 0 40px;
+      }
+      @media (max-width: 430px) {
+        font-size: 1.2rem;
+        margin: 10px 0 0 35px;
+      }
       &:hover {
         color: #ffb644;
         transition: 0.1s;

@@ -14,7 +14,7 @@ export default class Article extends Component {
   displayHeading() {
     if (this.props.headings) {
       return this.props.headings.map((heading)  => (
-        <h1 key={heading}>{parse(heading)}</h1>
+        <h1 key={heading} className="heading">{parse(heading)}</h1>
       ))
     }
   }

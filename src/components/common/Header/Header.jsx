@@ -26,10 +26,10 @@ export default class Header extends Component {
       <div className="header-container">
         <Banner heading={topBanner.heading} url={topBanner.url} />
         <div className="header">
-          <div className="right">
+          <div className="left">
             <h2 onClick={() => {this.props.history.push('/')}}>{initials}</h2>
           </div>
-          <div className="left">
+          <div className="right">
             {this.generateNavLinks()}
             {enableHeaderResume &&
               <a href={headerResumeButton.url} target={headerResumeButton.target} className="resume">{headerResumeButton.text}</a>

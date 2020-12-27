@@ -7,4 +7,7 @@
   background: #333;
   color: #fff !important;
   width: 100%;
+  @media (max-width: 650px) {
+    font-size: 0.9rem;
+  }
 }

@@ -1,6 +1,9 @@
 .projects-container {
   h1 {
     margin-bottom: 30px;
+    @media (max-width: 650px) {
+      margin-bottom: 15px;
+    }   
   }
   p {
     margin-bottom: 30px;

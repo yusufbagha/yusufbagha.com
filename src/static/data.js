@@ -17,7 +17,7 @@ import { faCalendar, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 export const linkedinUrl = "https://linkedin.com/in/yusufbagha"
 export const githubUrl = "https://github.com/yusufbagha"
-export const email = "yusufbagha64@gmail.com"
+export const email = "yusuf@yusufbagha.com"
 export const calendlyUrl = "https://calendly.com/yusufbagha"
 
 // Your Initials
@@ -82,8 +82,8 @@ export const topBanner = {
   home 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-export const homeHeadings = ['Hi, my name is Yusuf Bagha.', 'I enjoy building scalable web apps.']
-export const homeParagraphs = ['I’m a full stack software engineer based out of New York with experience developing scalable, maintainable, and secure Web applications. From concept and architectural design, to frontend development, backend development, and devops']
+export const homeHeadings = ['Hi, my name is Yusuf Bagha.', 'I build scalable web applications to match growing customer demand for your business.']
+export const homeParagraphs = ['I’m a full stack software engineer based out of New York. I have experience developing scalable, maintainable, and secure Web applications. From concept and architectural implementation, to frontend development, backend development, and devops']
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   experience 
@@ -187,9 +187,9 @@ export const workHistory = [
   about 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-export const loopText = ['Guten Tag', 'Privet', 'Hola', 'Konnichiwa', 'Hej, Halløj', 'Bonjour', 'Shikamoo', 'Namaskar', 'Anyoung haseyo', 'Ahlan', 'Merhaba', 'Cześć, Witaj', 'Yassas', 'Nǐ hǎo']
+export const loopText = ['Konnichiwa', 'Hej, Halløj', 'Bonjour', 'Shikamoo', 'Guten Tag', 'Hola', 'Namaskar', 'Anyoung haseyo', 'Privet', 'Ahlan', 'Merhaba', 'Cześć, Witaj', 'Yassas', 'Nǐ hǎo']
 export const aboutHeading = "I'm Yusuf"
-export const aboutParagraphs = [`I'm a full stack Python &amp; JavaScript engineer from New York. I started programming in 2013 and since then I've founded my own company. Worked as an engineering manager at an early stage startup, and most recently as a full stack engineer at <a href="http://pymetrics.ai" target="_blank">pymetrics</a>. You can learn about my full work history by clicking <a href="/experience">here</a>.`, "Technologies I've worked with recently: React, Django, Node, Mongo, PostgreSQL"]
+export const aboutParagraphs = [`I'm a full stack Python &amp; JavaScript engineer from New York. I started programming in 2013 and since then I've founded my own company. Worked as an engineering manager at <a href="https://www.prowalktoday.com/" target="_blank">UDog</a>, and most recently as a full stack software engineer at <a href="http://pymetrics.ai" target="_blank">pymetrics</a>. You can learn about my full work history by clicking <a href="/experience">here</a>.`, "Technologies I've worked with recently: React, Django, Node, Mongo, PostgreSQL"]
 
 
 
@@ -231,7 +231,7 @@ export const clients = [
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 export const projectsHeadings = ['Tapsalot']
-export const projectsParagraphs = [`I built this massive multiplayer game disguised as a web application with Node and React back in 2019. With over 415K network requests since it's inception, this app has aged nicely. I was fortunate enough to give a talk titled <span>"I built the world's dummest Meteor app"</span> at <a href="https://www.meetup.com/ApolloMeteorNYC/" target="_blank">ApolloMeteorNYC</a>. I could tell you about the game, but I think it's better if I let you explore on your own. Better if you play with a friend. If you wanna checkout the source code, click <a href="https://github.com/yusufbagha/tapsalot" target="_blank">here</a>.`]
+export const projectsParagraphs = [`I built this massive multiplayer game disguised as a web application with Node and React back in 2019. With over <b style="font-weight:600;">415K</b> network requests since its release, this app has seen a ton of traffic and its fair share of hackers. I was fortunate enough to give a talk titled <span>"I built the world's dummest Meteor app"</span> at <a href="https://www.meetup.com/ApolloMeteorNYC/" target="_blank">ApolloMeteorNYC</a>. I could try to tell you about the game, but you'll have a better experience if you explore on your own. More fun if you play with a friend. Checkout the source code <a href="https://github.com/yusufbagha/tapsalot" target="_blank">here</a>.`]
 export const projectIframeUrl = "http://54.209.191.220/"
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -239,8 +239,13 @@ export const projectIframeUrl = "http://54.209.191.220/"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 export const contactHeadings = ['Please Get In Touch']
-export const contactParagraphs = ["I'm actively interviewing for new roles and am excited to hear from you and your colleagues!"]
+export const contactParagraphs = ["I'm actively interviewing for new roles and am excited to hear from you and your colleagues!", "Let's setup a time to chat and I can tell you more in depth about my prior experiences and what technologies I'm most excited about!", "Please feel free to pick my brain obout any challenges your organization is facing. I really enjoy connecting with new people."]
 export const contacts = [
+  {
+    icon: faCalendar,
+    url: calendlyUrl,
+    text: calendlyUrl,
+  },
   {
     icon: faEnvelope,
     url: `mailto:${email}`,
@@ -255,11 +260,6 @@ export const contacts = [
     icon: faGithub,
     url: githubUrl,
     text: githubUrl,
-  },
-  {
-    icon: faCalendar,
-    url: calendlyUrl,
-    text: calendlyUrl,
   },
 ]
 

@@ -6,6 +6,7 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+import { Link } from 'react-router-dom'
 import Resume from './YusufBagha.Resume.pdf'
 import { faLinkedinIn, faGithub, } from '@fortawesome/free-brands-svg-icons'
 import { faCalendar, faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -187,7 +188,7 @@ export const workHistory = [
   about 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-export const loopText = ['Konnichiwa', 'Hej, Halløj', 'Bonjour', 'Shikamoo', 'Guten Tag', 'Hola', 'Namaskar', 'Anyoung haseyo', 'Privet', 'Ahlan', 'Merhaba', 'Cześć, Witaj', 'Yassas', 'Nǐ hǎo']
+export const loopText = ['Hej, Halløj', 'Bonjour', 'Shikamoo', 'Guten Tag', 'Hola', 'Namaskar', 'Anyoung haseyo', 'Privet', 'Ahlan', 'Merhaba', 'Cześć, Witaj', 'Yassas', 'Nǐ hǎo']
 export const aboutHeading = "I'm Yusuf"
 export const aboutParagraphs = [`I'm a full stack Python &amp; JavaScript engineer from New York. I started programming in 2013 and since then I've founded my own company. Worked as an engineering manager at <a href="https://www.prowalktoday.com/" target="_blank">UDog</a>, and most recently as a full stack software engineer at <a href="http://pymetrics.ai" target="_blank">pymetrics</a>. You can learn about my full work history by clicking <a href="/experience">here</a>.`, "Technologies I've worked with recently: React, Django, Node, Mongo, PostgreSQL"]
 

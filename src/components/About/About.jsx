@@ -25,7 +25,7 @@ export default class About extends Component {
     return (
       <View history={this.props.history} view="about">
         <div className="about-container">
-          <h1 className="heading"><TextLoop>{this.loopText()}</TextLoop> {aboutHeading}</h1>
+          <h1 className="heading"><TextLoop interval="2000">{this.loopText()}</TextLoop> {aboutHeading}</h1>
           <div>
             <div className="left">
               <Article paragraphs={aboutParagraphs} />

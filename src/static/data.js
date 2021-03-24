@@ -7,7 +7,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 import { Link } from 'react-router-dom'
-import Resume from './YusufBagha.Resume.pdf'
+import Resume from './YusufBagha.Resume.2021.pdf'
 import { faLinkedinIn, faGithub, } from '@fortawesome/free-brands-svg-icons'
 import { faCalendar, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 

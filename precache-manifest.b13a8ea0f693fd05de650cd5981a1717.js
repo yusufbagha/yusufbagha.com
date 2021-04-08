@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c41c42c3f9b1da3fd92ec93bca4fd2cd",
+    "revision": "87d18521e0df4c6085ed5bef9e66bf0e",
     "url": "/index.html"
   },
   {
-    "revision": "b63683f9618e58d6f343",
+    "revision": "601ed4bbd7567d235e4c",
     "url": "/static/css/main.073b89ea.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.01437d70.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b63683f9618e58d6f343",
-    "url": "/static/js/main.e074e88e.chunk.js"
+    "revision": "601ed4bbd7567d235e4c",
+    "url": "/static/js/main.68c885cb.chunk.js"
   },
   {
     "revision": "fcfe827e8c153e3bcda5",
     "url": "/static/js/runtime-main.5ad136f7.js"
   },
   {
-    "revision": "1038881e949623127b3ecfc613dce63c",
-    "url": "/static/media/YusufBagha.Resume.1038881e.pdf"
+    "revision": "864ff9950d43fd9cef3f0595a8c369e2",
+    "url": "/static/media/Yusuf.Bagha.Resume.2021.864ff995.pdf"
   },
   {
     "revision": "1eecefea2fbffdc464f5478d52b9d8e4",

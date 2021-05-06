@@ -75,8 +75,8 @@ export const headerResumeButton = {
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 export const topBanner = {
-  heading: 'Actively Interviewing #OpenToWork',
-  url: 'https://linkedin.com/in/yusufbagha'
+  heading: 'Plant a tree and join the fight against deforestation #OneTreePlanted',
+  url: 'https://onetreeplanted.org/products/plant-trees?variant=31367539589182'
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -92,6 +92,13 @@ export const homeParagraphs = ['I’m a full stack software engineer based out o
 
 
 export const workHistory = [
+  {
+    company: 'Insider Intelligence',
+    position: 'Software Engineer',
+    startDate: 'May 2021',
+    endDate: 'Present',
+    descriptions: []
+  },
   {
     company: 'Pymetrics',
     position: 'Software Engineer',
@@ -251,7 +258,7 @@ export const projectIframeUrl = "http://54.209.191.220/"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 export const contactHeadings = ['Please Get In Touch']
-export const contactParagraphs = ["I'm actively interviewing for new roles and am excited to hear from you and your colleagues!", "Let's setup a time to chat and I can tell you more in depth about my prior experiences and what technologies I'm most excited about!", "Please feel free to pick my brain obout any challenges your organization is facing. I really enjoy connecting with new people."]
+export const contactParagraphs = ["I'm actively looking to add new clients and am excited to hear from you and your colleagues!", "Let's setup a time to chat and I can tell you more in depth about my prior experiences and what technologies I'm most excited about!", "Please feel free to pick my brain obout any challenges your organization is facing. I really enjoy connecting with new people."]
 export const contacts = [
   {
     icon: faCalendar,
